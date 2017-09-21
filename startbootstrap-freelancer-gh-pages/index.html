@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -46,27 +46,26 @@
         background: RGB(160, 82, 45);
     }
 
-    hr .star-light{
-        background: RGB(160, 82, 45) ; 
-    }
+    
 
     section #about {
         background: RGB(160, 82, 45) ; 
 
     }
 
-    hr .star-light:after{
-        background: RGB(160, 82, 45) ;
+    
+
+   
+    hr.star-primary:after {
+    background-color: RGB(160, 82, 45);
+    color: white;
     }
 
   .navbar-custom .navbar-nav li a:hover{
     color: RGB(160, 82, 45);
-}
+    }
 
-hr.star-light:after{
-    background-color:RGB(160, 82, 45);
-    color:#fff
-}
+
 
 section.success{
     background:RGB(160, 82, 45);
@@ -103,6 +102,10 @@ a, a.active, a:active, a:focus, a:hover {
 border-color:RGB(140, 85, 45);
 }
 .btn-success.active,.btn-success:active,.btn-success:focus,.btn-success:hover,.open .dropdown-toggle.btn-success{color:#fff;background-color:RGB(140, 85, 45);border-color:RGB(140, 85, 45);}
+
+    body{
+        font-size:20px;
+    }
 
     </style>
 
@@ -151,8 +154,8 @@ border-color:RGB(140, 85, 45);
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <h1 class="name">Patrimônio Tombado de Formiga - MG</h1>
-                        <hr class="star-light">
+                        <h3 class="name">Patrimônio Tombado de Formiga - MG</h3>
+                        <hr class="star-primary">
                         <span class="skills">Site desenvolvido para exposição dos prédios tombados de Formiga Minas Gerais.</span>
                     </div>
                 </div>
@@ -165,33 +168,33 @@ border-color:RGB(140, 85, 45);
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <h2 class = "name">Portfólio</h2>
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="rodarte.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 Escola Estadual Professor Joaquim Rodarte
                             </div>
                         </div>
-                        <img src="img/jr.png" class="img-responsive" alt="Cabin">
+                        <img src="img/predios/rodarte.png" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="matriz.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
-                                Matris São Vicente Férrer 
+                                Matriz São Vicente Férrer 
                             </div>
                         </div>
-                        <img src="img/matris.png" class="img-responsive" alt="Slice of cake">
+                        <img src="img/predios/matriz.png" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="vicentinos.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 Casarão dos Vicentinos
@@ -201,17 +204,17 @@ border-color:RGB(140, 85, 45);
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="antoniovieira.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
-                               Edifício Antonio Vieira
+                               Edifício Antônio Vieira
                             </div>
                         </div>
                         <img src="img/predios/antoniovieira.png" class="img-responsive" alt="Game controller">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="C:\Users\Usuario\Desktop\Marcelo\IFMG\POC\Template Solid\theme\index.html" class="portfolio-link fundo" >
+                    <a href="engenheiro.html" class="portfolio-link fundo" >
                         <div class="caption">
                             <div class="caption-content">
                                 Casa do Engenheiro
@@ -221,7 +224,7 @@ border-color:RGB(140, 85, 45);
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="emart.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                             Escola Municipal da Arte da Dança
@@ -231,7 +234,7 @@ border-color:RGB(140, 85, 45);
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="estacao.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 Antiga Estação Ferroviária 
@@ -241,7 +244,7 @@ border-color:RGB(140, 85, 45);
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="matadouro.html" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 Antigo Matadouro do Alvorada
@@ -260,7 +263,7 @@ border-color:RGB(140, 85, 45);
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -285,7 +288,7 @@ border-color:RGB(140, 85, 45);
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
